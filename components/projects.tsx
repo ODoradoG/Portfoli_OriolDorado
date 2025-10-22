@@ -29,11 +29,14 @@ export function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 relative overflow-hidden">
-                <img
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
+                <video
+                  src="/VideoBotTrivia.mp4"
+                  controls
                   className="w-full h-full object-cover"
-                />
+                  poster={project.image || "/placeholder.svg"}
+                >
+                  El teu navegador no suporta la reproducció de vídeos.
+                </video>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
