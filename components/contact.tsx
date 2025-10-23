@@ -75,7 +75,7 @@ export function Contact() {
             <Card className="p-6">
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-6 h-6 text-accent" />
+                  <MapPin className="w-6 h-6" style={{ color: 'hsl(var(--accent))' }} />
                 </div>
                 <div>
                   <h3 className="font-semibold mb-1">Ubicació</h3>
