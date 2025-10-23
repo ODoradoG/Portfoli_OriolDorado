@@ -91,8 +91,8 @@ export function About() {
           </Card>
 
           <Card className="p-6 hover:shadow-lg transition-shadow">
-            <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-4">
-              <Code2 className="w-6 h-6" style={{ color: 'hsl(var(--accent))' }} />
+            <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4">
+              <Code2 className="w-6 h-6 text-primary" />
             </div>
             <h3 className="text-xl font-semibold mb-2">Especialització</h3>
             <p className="text-muted-foreground leading-relaxed">
