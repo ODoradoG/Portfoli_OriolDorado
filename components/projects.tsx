@@ -29,14 +29,13 @@ export function Projects() {
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-primary/10 to-accent/10 relative overflow-hidden">
-                <video
-                  src="/VideoBotTrivia.mp4"
-                  controls
-                  className="w-full h-full object-cover"
-                  poster={project.image || "/placeholder.svg"}
-                >
-                  El teu navegador no suporta la reproducció de vídeos.
-                </video>
+                <iframe
+                  src="https://player.vimeo.com/video/1129618104?badge=0&autopause=0&player_id=0&app_id=58479"
+                  className="w-full h-full"
+                  frameBorder="0"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                  title={project.title}
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
