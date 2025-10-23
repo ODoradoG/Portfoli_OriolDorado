@@ -8,7 +8,7 @@ export function Projects() {
       title: "Bot de Telegram de Trivia",
       description:
         "Bot interactiu de Telegram que permet jugar a preguntes de trivia amb diferents categories i nivells de dificultat. Inclou sistema de puntuació, rànquing d'usuaris i preguntes aleatòries.",
-      tags: ["Python", "python-telegram-bot", "API", "SQLite"],
+      tags: ["Python", "python-telegram-bot", "API"],
       image: "/telegram-bot-trivia-game-interface-with-questions-.jpg",
       github: "https://github.com/ODoradoG/BotTrivia-Telegram.git",
       demo: "https://web.telegram.org/k/#@SuperSmartQuizBot",
